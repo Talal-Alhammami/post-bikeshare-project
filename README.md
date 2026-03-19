@@ -1,11 +1,40 @@
 >**Note**: Please **fork** this Udacity repository so you have a **remote** repository in **your** GitHub account. Then you can clone the remote repository to your local machine. Later, as a part of the project, you will push your changes to the remote repository in your GitHub account.
 
 
-# Project Title
+# Bikes share project 
 
-Describe what your project is about and what it does
+This project analyzes bikeshare data for diffrent cities **chicago, new york city, washington**, providing insights such as trip durations, popular stations, and user demographics.
+
 
 ## Information about how to use your project
+
+### Requirements
+- Python 3.x
+- Required libraries:
+  - pandas
+  - numpy
+
+### Installation
+1. Clone the repository:
+```bash
+git clone <your-repo-link>
+cd <repo-folder>
+
+pip install pandas numpy
+
+###Usage
+
+Follow the prompts in the terminal to select:
+    City
+    Month
+    Day
+The program will display statistics based on your selections.
+
+###Troubleshooting
+
+Ensure all required libraries are installed.
+Verify that the dataset files are available locally.
+Check for correct Python version compatibility.
 
 This could include:
 
@@ -24,4 +53,4 @@ It's important to give proper credit. Add links to any repo that inspired you or
 
 ## Date created
 
-Include the date you created this project and README file.
+date : March 19,  2026

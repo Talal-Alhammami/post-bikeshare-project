@@ -38,6 +38,16 @@ def get_filters():
                 print("Invalid input. Please enter a valid month name.")
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
+    def get_day():
+        days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
+        while True:
+            day = input("Please enter the day of week you want to filter by (monday, tuesday, wednesday, thursday, friday, saturday, sunday, or all): ").lower()
+            if day in days:
+                return day
+            else:
+                print("Invalid input. Please enter a valid day of week.")
+
+
 
 
     print('-'*40)

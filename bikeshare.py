@@ -1,6 +1,7 @@
-import time
-import pandas as pd
-import numpy as np
+import time # used for measuring the time taken to perform calculations
+import pandas as pd # used for data manipulation and analysis
+import numpy as np # used for numerical operations
+
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',

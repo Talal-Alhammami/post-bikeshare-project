@@ -43,9 +43,15 @@ This could include:
 - Instructions and examples for how to use your project, including any helpful code snippets.
 - Common issues and troubleshooting tips
 
-## Contribution guidelines
 
-If you welcome contributions, provide guidelines on how others can contribute to your project.
+## Contribution Guidelines
+
+- Fork the repository to your GitHub account.
+- Create a new branch for your changes:
+```bash
+git checkout -b feature-branch
+git push origin feature-branch
+
 
 ## Credits
 
